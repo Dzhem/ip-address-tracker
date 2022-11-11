@@ -45,6 +45,7 @@
   cursor: pointer;
 }
 .search-bar__btn {
+  width: 58px;
   background-color: black;
   border: none;
   outline: none;
@@ -52,9 +53,9 @@
   padding: 0 1.5rem;
   border-radius: 0 10px 10px 0;
   cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-image: url(../images/icon-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .search-bar__btn:hover {
   background-color: rgb(77, 77, 77);
