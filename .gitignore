@@ -18,3 +18,4 @@ build/
 dist/
 .cache/
 tmp/
+.parcel-cache/
