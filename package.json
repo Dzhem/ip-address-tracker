@@ -1,0 +1,25 @@
+{
+  "name": "ip-address-tracker",
+  "version": "1.0.0",
+  "description": "![Design preview for the IP address tracker coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html --out-dir=build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dzhem/ip-address-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dzhem/ip-address-tracker/issues"
+  },
+  "homepage": "https://github.com/Dzhem/ip-address-tracker#readme",
+  "devDependencies": {
+    "parcel": "^2.8.0",
+    "parcel-bundler": "^1.12.5"
+  }
+}
