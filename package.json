@@ -4,7 +4,7 @@
   "description": "![Design preview for the IP address tracker coding challenge](./design/desktop-preview.jpg)",
   "scripts": {
     "start": "npx parcel index.html --open",
-    "build": "npx parcel build index.html --dist-dir docs"
+    "build": "npx parcel build index.html --dist-dir build"
   },
   "repository": {
     "type": "git",
