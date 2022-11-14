@@ -2,10 +2,11 @@
   "name": "ip-address-tracker",
   "version": "1.0.0",
   "description": "![Design preview for the IP address tracker coding challenge](./design/desktop-preview.jpg)",
-  "main": "index.js",
   "scripts": {
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html --out-dir=build"
+    "start": "npx parcel index.html --open",
+    "build": "npx parcel build index.html --dist-dir build",
+    "predeploy": "npm run build",
+    "deploy": "npx vercel --prod"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,7 @@
   "homepage": "https://github.com/Dzhem/ip-address-tracker#readme",
   "devDependencies": {
     "parcel": "^2.8.0",
-    "parcel-bundler": "^1.12.5"
+    "vercel": "^28.4.17"
   },
   "dependencies": {
     "leaflet": "^1.9.2"
