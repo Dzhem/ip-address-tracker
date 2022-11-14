@@ -1,6 +1,6 @@
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
-import { validateIp, addTileMap } from "./helpers/index";
+import { validateIp, addTileMap, addOffset } from "./helpers/index";
 import iconLoc from "../images/icon-location.svg";
 
 const ipInput = document.querySelector(".search-bar__input");
@@ -48,6 +48,9 @@ function printMap(lat, lng) {
   map.setView([lat, lng], 13);
   L.marker([lat, lng], { icon: markerIcon }).addTo(map);
   addTileMap(map);
+  if (matchMedia("(max-width: 1023px)").matches) {
+    addOffset(map);
+  }
 }
 
 function handleKey(e) {
