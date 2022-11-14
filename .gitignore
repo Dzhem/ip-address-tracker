@@ -18,3 +18,5 @@ dist/
 .cache/
 tmp/
 .parcel-cache/
+.vercel
+.build/
